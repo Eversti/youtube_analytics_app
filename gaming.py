@@ -12,7 +12,7 @@ def channelData(channel_name, channel_id):
     videoCount = json.loads(data)['items'][0]['statistics']['videoCount']
     print(f'\n{channel_name}')
     print("--------------------")
-    print(f'Subscribers: {subs} \nViews: {views} \nNumer of videos: {videoCount}')
+    print(f'Subscribers: {subs} \nViews: {views} \nNumber of videos: {videoCount}')
     print("--------------------\n")
 
 def generate_url(channel_id):
